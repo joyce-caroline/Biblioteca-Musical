@@ -78,7 +78,7 @@ function main (){
 
 //Criar músicas
 const musica1 = new Musica("Runaway", "Aurora", 253);
-const musica2 = new Musica("Hoje Cedo", "Pitty 2", 240);
+const musica2 = new Musica("Hoje Cedo", "Emicida", 298);
 
 //Criar biblioteca musical
 const biblioteca = new BibliotecaMusical();
@@ -88,10 +88,10 @@ biblioteca.adicionarMusica(musica1);
 biblioteca.adicionarMusica(musica2);
 
 //Criar usuário com a biblioteca musical
-const usuario = new Usuario("Usuário 1", biblioteca);
+const usuario = new Usuario("Joy", biblioteca);
 
 //Adicionar mais músicas à biblioteca do usuário
-const musica3 = new Musica("Música 3", "Artista 3", 200);
+const musica3 = new Musica("Patinho Colorido", "Artista 3", 144);
 usuario.adicionarMusicaNaBiblioteca(musica3);
 
 //Listar músicas na biblioteca do usuário
